@@ -1,0 +1,116 @@
+/*@keyframes fadeLime {
+  0% {
+    color: lime;
+  }
+  50% {
+    color: #00FF00;
+  }
+  100% {
+    color: white;
+  }
+}*/
+body {
+  background-color: black;
+  font-family: Roboto, "sans-serif";
+  justify-content: center;
+}
+
+.odometer, .goalodometer {
+  font-size: 30px;
+  color: white;
+  font-weight: 150;
+}
+
+#difference {
+  margin-top: -12px;
+}
+.odometer-parent {
+  text-align: center;
+}
+
+h6,
+h5 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 990;
+  text-align: center;
+}
+h4 {
+  text-align: center;
+  font-weight: 770;
+  color: white;
+}
+
+#user-icon, #user-icon2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90px;
+  height: 90px;
+}
+
+#odometer2.odometer-animating-up .odometer-value {
+  color: lime;
+  font-size: 30px;
+  /* animation: fadeLime 1.9s; */
+}
+#odometer.odometer-animating-up .odometer-value {
+  color: lime;
+  font-size: 30px;
+  /* animation: fadeLime 1.9s; */
+}
+
+#odometer.odometer-animating-down .odometer-value {
+  color: red;
+  font-size: 30px;
+}
+#odometer2.odometer-animating-down .odometer-value {
+  color: red;
+  font-size: 30px;
+}
+
+#username, #username2 {
+  color: white;
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  outline: none;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  border: solid;
+  padding: 3px 50px;
+}
+
+button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 35px;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+img {
+  border: 1.6px solid white;
+}
+
+
+/* Battle Windows */
+.flex-container {
+  display: flex;
+}
+.first, .second {
+  flex: 1;
+}
