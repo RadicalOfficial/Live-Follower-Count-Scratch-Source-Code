@@ -9,3 +9,6 @@ odometer.js for the Odometer Effect.
 
 Everything else is by Me, Radical.
 Some help from [@wolfieboy09](https://github.com/wolfieboy09/)
+
+## Bugs? Feedback?
+Contact me!
